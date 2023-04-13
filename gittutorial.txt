@@ -1,0 +1,53 @@
+git tutorial 
+
+1. ls = to check the list, or what folders are there in the folder etc
+
+2. cd = change directory
+
+3. cd "new folder" = if it shows there are to many cd command so write inside double quote and it will open it
+
+4. mkdir = make a directory/ folder
+
+5. git init = it initialise a .git folder where all the changes are stored it is provided via github
+
+6. ls -a = to check the hidden folders.
+
+7. touch uj.txt = to create a new file use touch command
+
+8. git status = to see what changes have been made 
+
+9. rm -rf uj.txt = to remove the file 
+
+10. git add . or git add individualFileName = by this command we can 
+
+11. vi uj.txt = to open the file and write any thing whatever u want and to exit it (press esc then :wq)
+
+12. cat uj1.txt = to open the file and see what i have written in it
+
+13. git restore --staged uj1.txt = to remove 
+
+14. git commit -m "uj1.txt files modified" = to put what changes have been made
+suppose i delete the file (rm -rf uj1.txt) then check the status by (git status) it will show deleted so i'll save it by (git commit -m "uj1.txt files deleted")
+
+
+15. git log =  to check the entire history
+
+16. git restore d6ab4d3c2e76ce78fa79c93f4d8f6f4752106bf9 = will undo
+
+17. git stash =  is a command that allows you to temporarily save changes in your working directory that you do not want to commit yet, but do not want to discard or commit. It allows you to temporarily set aside changes that you have made to your files, so that you can switch to a different branch, pull changes from a remote repository, or perform other operations without committing incomplete work.
+
+18. git mv oldfile.txt newfile.txt
+
+19. git stash pop = to bring back 
+20. git stash clear = used to remove all stashes from the stash list. It does not affect the working directory or the repository's commit history.
+
+21. git remote add origin https://github.com/kunal-kushwaha/terraform-provider-civo
+
+check =git remote -v
+
+delete = git remote rm origin https://github.com/kunal-kushwaha/terraform-provider-civo  (removes)
+
+git push origin master == to push
+
+
+22. you can not make changes to anyones account directly, so to do that go and fork the project in your account and then clone that project via git clone ....url.... and now we can do the changes
