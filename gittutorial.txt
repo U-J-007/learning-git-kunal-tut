@@ -51,3 +51,15 @@ git push origin master == to push
 
 
 22. you can not make changes to anyones account directly, so to do that go and fork the project in your account and then clone that project via git clone ....url.... and now we can do the changes
+
+
+git remote add upstream
+
+23. git branch uj = never do changes on a main branch always create a new branch
+    
+    git checkout uj = the head will now come to checkout branch
+
+git push origin uj
+
+git push origin uj -f = force push
+
